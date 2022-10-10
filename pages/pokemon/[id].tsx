@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { NextPage, GetStaticProps, GetStaticPaths } from 'next';
 import confetty from 'canvas-confetti';
 

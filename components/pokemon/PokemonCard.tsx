@@ -16,7 +16,7 @@ export const PokemonCard = ({ pokemon }: Props) => {
 
   return (
     <Grid xs={6} sm={3} md={2} xl={1} key={id} >
-      <Card isHoverable isPressable onClick={onClick}>
+      <Card isHoverable isPressable onClick={onClick} css={{ paddingTop: '10px' }}>
         <Card.Body css={{ p: 1 }}>
           <Card.Image
             src={img}

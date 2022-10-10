@@ -1,0 +1,35 @@
+.custom-button {
+  border: 0;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding-top: 4px;
+  padding-left: 7px;
+  right: 5px;
+  top: 5px;
+  position: absolute;
+  transition: background 0.3s ease-in-out;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background: #ff4ecdae;
+}
+
+.animate-card {
+  animation: fiesta 0.45s linear;
+}
+
+@keyframes fiesta {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(500px) rotate(360deg) scale(0.2);
+    position: sticky;
+  }
+}
