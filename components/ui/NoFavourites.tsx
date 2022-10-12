@@ -10,7 +10,7 @@ export const NoFavourites = () => {
       justifyContent: 'center',
       alignSelf: 'center'
     }}>
-      <Text h1>No hay Favoritos</Text>
+      <Text h1>Oops! You don`&apos;`t have any favourites yet</Text>
       <Image
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/132.svg"
         alt="pokemon not found"
